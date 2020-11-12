@@ -295,6 +295,10 @@ a:hover {
     font-size: 2.28em;
 }
 
+#bloc-1-hero .col-sm-12 {
+    margin: 40px 0 40px 0;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -877,6 +881,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 1000px;
 }
 
 #bloc-2-services .row:last-child p {
@@ -886,6 +891,7 @@ h4 {
 
 #bloc-2-services .row:last-child span {
     font-size: 0.7em;
+    font-style: normal;
     font-style: normal;
 }
 
@@ -1189,6 +1195,10 @@ h4 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    #bloc-1-hero .col-sm-12 {
+        margin: 15px 0 15px 0;
     }
 }
 
